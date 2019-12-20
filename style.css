@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e8f8fd;
+    /*    scroll-behavior: smooth;*/
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #89dcf5cc;
+    border: 1px solid #89dcf5cc;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #89dcf5cc;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #ecb1fb;
+    color: #89dcf5cc;
+    border: 1px solid #89dcf5cc;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    /*    font-size: 40px;*/
+    text-align: center;
+}
+
+h3 {
+    /*    font-size: 36px;*/
+    text-align: center;
+}
+
+figure {
+    width: 80%;
+    height: 520px;
+    position: relative;
+    overflow: hidden;
+    color: #e8f8fd;
+    opacity: 0.9;
+}
+
+.imgtranslate {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 9s;
+    transform: translateX(100%);
+    pointer-events: none;
+}
+
+figcaption {
+    position: absolute;
+    background-color: #e8f8fd, 1);
+    padding: 10px;
+    width: 100%;
+    font-size: 24px;
+    bottom: 0;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 10s;
+}
+
+figure:hover figcaption {
+    transform: translateY(0%);
+}
+
+figure:hover img {
+    transform: translateX(0);
+}
+
+iframe {
+    position: absolute;
+    top: 3%;
+    left: calc(50% - 160px);
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #e8f8fd;
+    max-width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.titels {
+    font-size: 34px;
+    color: #ecb1fb;
+    text-shadow: 1px 1px black;
+}
+
+img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: inherit;
+}
+
+ul li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-weight: Bold;
+}
+
+.list {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+
+/*---------------------------------------------*/
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 200px;
+    padding: 10px;
+    background-color: #89dcf5cc;
+    border: none;
+    border: 1px solid #89dcf5cc;
+}
+
+textarea {
+    width: 200px;
+    height: 150px;
+    resize:
+}
+
+input:focus,
+textarea:focus {
+    background-color: white;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    background-color: #89dcf5cc;
+    border: 1px solid #89dcf5cc;
+}
+
+.linkedin img {
+    height: 25px;
+    width: 25px
+}
